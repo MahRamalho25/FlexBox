@@ -1,0 +1,22 @@
+.janela1{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+}
+.janela2{
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+}
+@media screen and (max-width:600px){
+    .janela1{
+        width:150px;
+        height: 150px;
+        background-color: chartreuse;
+    }
+    .janela2{
+        width: 200;
+        height: 200;
+        background-color: ;
+    }
+}
